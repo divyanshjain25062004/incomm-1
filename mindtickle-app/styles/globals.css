@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --mt-navy:   #1B2458;
+  --mt-navy2:  #141C47;
+  --mt-purple: #7C3AED;
+  --mt-purple-lt: #8B5CF6;
+  --mt-purple-bg: #EDE9FE;
+  --mt-teal:   #00C9A7;
+  --mt-teal-bg:#D1FAF4;
+  --mt-orange: #F59E0B;
+  --mt-orange-bg:#FEF3C7;
+  --mt-red:    #EF4444;
+  --mt-red-bg: #FEE2E2;
+  --mt-blue:   #3B82F6;
+  --mt-blue-bg:#DBEAFE;
+  --mt-green:  #10B981;
+  --mt-green-bg:#D1FAE5;
+  --g0:#FFFFFF; --g50:#F8F9FC; --g100:#F1F3F9; --g200:#E2E5F0;
+  --g300:#C7CCE0; --g400:#9199B8; --g500:#6B748F; --g600:#4B5470;
+  --g700:#363F5E; --g800:#242C4A; --g900:#141C38;
+  --sans:'Inter',system-ui,sans-serif;
+  --mono:'JetBrains Mono',monospace;
+  --r:8px; --r-lg:12px; --r-xl:16px;
+  --shadow-sm:0 1px 3px rgba(0,0,0,.08);
+  --shadow:0 2px 8px rgba(0,0,0,.1);
+  --shadow-lg:0 8px 24px rgba(0,0,0,.14);
+}
+html,body{height:100%;font-family:var(--sans);color:var(--g800);background:#F0F2F8;-webkit-font-smoothing:antialiased;}
