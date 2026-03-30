@@ -149,7 +149,7 @@ function ExtractModal({ onClose, onSuccess }) {
     setState('loading'); setStep(0);
     const st = setInterval(() => setStep(s => Math.min(s + 1, STEPS.length - 1)), 5000);
     try {
-      const r = await fetch('https://sapis.gocobalt.io/api/v1/workflow/69ca23dc6cfe34bc321b2260/execute', {
+      const r = await fetch('https://sapis.gocobalt.io/api/v1/workflow/69ca23dc6cfe34bc321b225a/execute', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'X-API-Key': 'tk42aa441c-7f2a-4f76-a08f-3a1f99fc4df0', 'linked_account_id': 'cobalt_test_user', 'slug': 'ms_dynamics_crm', 'config_id': 'OPTIONAL', 'sync_execution': 'false' },
         body: JSON.stringify({}),
